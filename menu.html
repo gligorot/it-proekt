@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="fontawesome/css/all.css" rel="stylesheet" type="text/css">
+
+    <!-- C3 css -->
+    <link href="vendor/c3/c3.min.css" rel="stylesheet">
+
+    <title>Burger Store</title>
+
+</head>
+
+<body class="bg-dark">
+
+<!-- Navigation -->
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-warning">
+    <div class="container">
+
+        <a class="navbar-brand" href="index.html">
+            <i class="fa fa-hamburger"></i> &nbsp;Burger Store
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="catering.html">Catering</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html">Cart</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log In</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Content -->
+<div class="container p-0 bg-dark text-warning">
+    <div class="col-12">
+        <div class="row px-5 pt-4 pb-4"><h2 class="font-weight-bold">See what we have on offer:</h2></div>
+
+        <!-- Menu Items -->
+        <div class="row px-5">
+            <div class="col-8">
+                <ul class="list-unstyled">
+                    <li class="media my-2" style="min-height: 5rem;">
+                        <img src="images/burger1.jpg" class="mr-3 img-thumbnail bg-warning" alt="..." height="64px" width="64px">
+                        <div class="media-body">
+                            <h5 class="mt-0 mb-1">Burger 1</h5>
+                            Fresh bun, chicken nuggets, ketchup, mayo, fresh spices of choice
+                            <div class="media mt-3 collapse bg-warning text-dark p-3" id="burger1data">
+                                <div class="media-body">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            More info about the burger
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="row">
+                                                <input type="number" style="max-width: 40%;" maxlength="6" size="6">
+                                                <button class="btn btn-dark text-warning mx-1"><i class="fa fa-cart-plus"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Price & Info Button -->
+                        <div class="row mr-0 mb-0 px-1">
+                            <div class="col-6">
+                                <button class="btn-outline-warning" disabled="disabled">$5.00</button>
+                            </div>
+                            <div class="w-100" style="height: 0.5rem;"></div> <!-- Divider -->
+                            <div class="col-6">
+                                <button class="btn-outline-warning" type="button" data-toggle="collapse" data-target="#burger1data" aria-expanded="false" aria-controls="burger1data">
+                                    <i class="fa fa-info"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /Price & Info Button -->
+                    </li>
+                    <li class="media my-2" style="min-height: 5rem;">
+                        <img src="images/burger2.jpg" class="mr-3 img-thumbnail bg-warning" alt="..." height="64px" width="64px">
+                        <div class="media-body">
+                            <h5 class="mt-0 mb-1">Burger 2</h5>
+                            Fresh bun, chicken nuggets, ketchup, mayo, fresh spices of choice
+                            <div class="media mt-3 collapse bg-warning text-dark p-3" id="burger2data">
+                                <div class="media-body">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            More info about the burger
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="row">
+                                                <input type="number" style="max-width: 40%;" maxlength="6" size="6">
+                                                <button class="btn btn-dark text-warning mx-1"><i class="fa fa-cart-plus"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Price & Info Button -->
+                        <div class="row mr-0 mb-0 px-1">
+                            <div class="col-6">
+                                <button class="btn-outline-warning" disabled="disabled">$5.00</button>
+                            </div>
+                            <div class="w-100" style="height: 0.5rem;"></div> <!-- Divider -->
+                            <div class="col-6">
+                                <button class="btn-outline-warning" type="button" data-toggle="collapse" data-target="#burger2data" aria-expanded="false" aria-controls="burger2data">
+                                    <i class="fa fa-info"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /Price & Info Button -->
+                    </li>
+                    <li class="media my-2" style="min-height: 5rem;">
+                        <img src="images/burger3.jpg" class="mr-3 img-thumbnail bg-warning" alt="..." height="64px" width="64px">
+                        <div class="media-body">
+                            <h5 class="mt-0 mb-1">Burger 3</h5>
+                            Fresh bun, chicken nuggets, ketchup, mayo, fresh spices of choice
+                            <div class="media mt-3 collapse bg-warning text-dark p-3" id="burger3data">
+                                <div class="media-body">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            More info about the burger
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="row">
+                                                <input type="number" style="max-width: 40%;" maxlength="6" size="6">
+                                                <button class="btn btn-dark text-warning mx-1"><i class="fa fa-cart-plus"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Price & Info Button -->
+                        <div class="row mr-0 mb-0 px-1">
+                            <div class="col-6">
+                                <button class="btn-outline-warning" disabled="disabled">$5.00</button>
+                            </div>
+                            <div class="w-100" style="height: 0.5rem;"></div> <!-- Divider -->
+                            <div class="col-6">
+                                <button class="btn-outline-warning" type="button" data-toggle="collapse" data-target="#burger3data" aria-expanded="false" aria-controls="burger3data">
+                                    <i class="fa fa-info"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /Price & Info Button -->
+                    </li>
+                    <li class="media my-2" style="min-height: 5rem;">
+                        <img src="images/burger4.jpg" class="mr-3 img-thumbnail bg-warning" alt="..." height="64px" width="64px">
+                        <div class="media-body">
+                            <h5 class="mt-0 mb-1">Burger 4</h5>
+                            Fresh bun, chicken nuggets, ketchup, mayo, fresh spices of choice
+                            <div class="media mt-3 collapse bg-warning text-dark p-3" id="burger4data">
+                                <div class="media-body">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            More info about the burger
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="row">
+                                                <input type="number" style="max-width: 40%;" maxlength="6" size="6">
+                                                <button class="btn btn-dark text-warning mx-1"><i class="fa fa-cart-plus"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Price & Info Button -->
+                        <div class="row mr-0 mb-0 px-1">
+                            <div class="col-6">
+                                <button class="btn-outline-warning" disabled="disabled">$5.00</button>
+                            </div>
+                            <div class="w-100" style="height: 0.5rem;"></div> <!-- Divider -->
+                            <div class="col-6">
+                                <button class="btn-outline-warning" type="button" data-toggle="collapse" data-target="#burger4data" aria-expanded="false" aria-controls="burger4data">
+                                    <i class="fa fa-info"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /Price & Info Button -->
+                    </li>
+                    <li class="media my-2" style="min-height: 5rem;">
+                        <img src="images/burger5.jpg" class="mr-3 img-thumbnail bg-warning" alt="..." height="64px" width="64px">
+                        <div class="media-body">
+                            <h5 class="mt-0 mb-1">Burger 5</h5>
+                            Fresh bun, chicken nuggets, ketchup, mayo, fresh spices of choice
+                            <div class="media mt-3 collapse bg-warning text-dark p-3" id="burger5data">
+                                <div class="media-body">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            More info about the burger
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="row">
+                                                <input type="number" style="max-width: 40%;" maxlength="6" size="6">
+                                                <button class="btn btn-dark text-warning mx-1"><i class="fa fa-cart-plus"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Price & Info Button -->
+                        <div class="row mr-0 mb-0 px-1">
+                            <div class="col-6">
+                                <button class="btn-outline-warning" disabled="disabled">$5.00</button>
+                            </div>
+                            <div class="w-100" style="height: 0.5rem;"></div> <!-- Divider -->
+                            <div class="col-6">
+                                <button class="btn-outline-warning" type="button" data-toggle="collapse" data-target="#burger5data" aria-expanded="false" aria-controls="burger5data">
+                                    <i class="fa fa-info"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /Price & Info Button -->
+                    </li>
+                    <li class="media my-2" style="min-height: 5rem;">
+                        <img src="images/burger6.jpg" class="mr-3 img-thumbnail bg-warning" alt="..." height="64px" width="64px">
+                        <div class="media-body">
+                            <h5 class="mt-0 mb-1">Burger 6</h5>
+                            Fresh bun, chicken nuggets, ketchup, mayo, fresh spices of choice
+                            <div class="media mt-3 collapse bg-warning text-dark p-3" id="burger6data">
+                                <div class="media-body">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            More info about the burger
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="row">
+                                                <input type="number" style="max-width: 40%;" maxlength="6" size="6">
+                                                <button class="btn btn-dark text-warning mx-1"><i class="fa fa-cart-plus"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Price & Info Button -->
+                        <div class="row mr-0 mb-0 px-1">
+                            <div class="col-6">
+                                <button class="btn-outline-warning" disabled="disabled">$5.00</button>
+                            </div>
+                            <div class="w-100" style="height: 0.5rem;"></div> <!-- Divider -->
+                            <div class="col-6">
+                                <button class="btn-outline-warning" type="button" data-toggle="collapse" data-target="#burger6data" aria-expanded="false" aria-controls="burger6data">
+                                    <i class="fa fa-info"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /Price & Info Button -->
+                    </li>
+                    <li class="media my-2" style="min-height: 5rem;">
+                        <img src="images/burger1.jpg" class="mr-3 img-thumbnail bg-warning" alt="..." height="64px" width="64px">
+                        <div class="media-body">
+                            <h5 class="mt-0 mb-1">Burger 7</h5>
+                            Fresh bun, chicken nuggets, ketchup, mayo, fresh spices of choice
+                            <div class="media mt-3 collapse bg-warning text-dark p-3" id="burger7data">
+                                <div class="media-body">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            More info about the burger
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="row">
+                                                <input type="number" style="max-width: 40%;" maxlength="6" size="6">
+                                                <button class="btn btn-dark text-warning mx-1"><i class="fa fa-cart-plus"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Price & Info Button -->
+                        <div class="row mr-0 mb-0 px-1">
+                            <div class="col-6">
+                                <button class="btn-outline-warning" disabled="disabled">$5.00</button>
+                            </div>
+                            <div class="w-100" style="height: 0.5rem;"></div> <!-- Divider -->
+                            <div class="col-6">
+                                <button class="btn-outline-warning" type="button" data-toggle="collapse" data-target="#burger7data" aria-expanded="false" aria-controls="burger7data">
+                                    <i class="fa fa-info"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /Price & Info Button -->
+                    </li>
+                    <li class="media my-2" style="min-height: 5rem;">
+                        <img src="images/burger2.jpg" class="mr-3 img-thumbnail bg-warning" alt="..." height="64px" width="64px">
+                        <div class="media-body">
+                            <h5 class="mt-0 mb-1">Burger 8</h5>
+                            Fresh bun, chicken nuggets, ketchup, mayo, fresh spices of choice
+                            <div class="media mt-3 collapse bg-warning text-dark p-3" id="burger8data">
+                                <div class="media-body">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            More info about the burger
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="row">
+                                                <input type="number" style="max-width: 40%;" maxlength="6" size="6">
+                                                <button class="btn btn-dark text-warning mx-1"><i class="fa fa-cart-plus"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Price & Info Button -->
+                        <div class="row mr-0 mb-0 px-1">
+                            <div class="col-6">
+                                <button class="btn-outline-warning" disabled="disabled">$5.00</button>
+                            </div>
+                            <div class="w-100" style="height: 0.5rem;"></div> <!-- Divider -->
+                            <div class="col-6">
+                                <button class="btn-outline-warning" type="button" data-toggle="collapse" data-target="#burger8data" aria-expanded="false" aria-controls="burger8data">
+                                    <i class="fa fa-info"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /Price & Info Button -->
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <!-- /Menu Items -->
+
+        <div class="row bg-warning" style="height: 0.5rem"></div>
+    </div>
+
+    <!-- Footer -->
+    <div class="col-12">
+        <div class="row">
+            <div class="col-12 p-3 bg-dark text-light text-center">
+                <small>Copyright FINKI 2019</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<!-- C3/D3 Charts -->
+<script src="vendor/c3/d3.min.js"></script>
+<script src="vendor/c3/c3.min.js"></script>
+
+<script src="js/admin.js"></script>
+
+</body>
+</html>
