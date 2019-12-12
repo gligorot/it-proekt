@@ -71,7 +71,6 @@
                     <tr>
                         <th scope="col"> </th>
                         <th scope="col">Burger Name</th>
-                        <th scope="col">Available</th>
                         <th scope="col" class="text-center">Quantity</th>
                         <th scope="col" class="text-right">Price</th>
                         <th> </th>
@@ -81,29 +80,25 @@
                     <tr>
                         <td><img src="images/burger1.jpg" height="50" width="50"/> </td>
                         <td>Burger 1</td>
-                        <td>In stock</td>
-                        <td><input class="form-control" type="text" value="1" /></td>
+                        <td width="10"><input class="form-control" type="text" value="1" style="width: 5rem"/></td>
                         <td class="text-right">$5.00</td>
                         <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
                     </tr>
                     <tr>
                         <td><img src="images/burger2.jpg" height="50" width="50" /> </td>
                         <td>Burger 2</td>
-                        <td>In stock</td>
-                        <td><input class="form-control" type="text" value="1" /></td>
+                        <td width="10"><input class="form-control" type="text" value="1" style="width: 5rem"/></td>
                         <td class="text-right">$5.00</td>
                         <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
                     </tr>
                     <tr>
                         <td><img src="images/burger3.jpg" height="50" width="50" /> </td>
                         <td>Burger 3</td>
-                        <td>In stock</td>
-                        <td><input class="form-control" type="text" value="1" /></td>
+                        <td width="10"><input class="form-control" type="text" value="1" style="width: 5rem"/></td>
                         <td class="text-right">$5.00</td>
                         <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
                     </tr>
                     <tr>
-                        <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -114,12 +109,10 @@
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
                         <td>Transport</td>
                         <td class="text-right">$2.00</td>
                     </tr>
                     <tr>
-                        <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -136,23 +129,27 @@
                     <strong>Any notes?</strong>
                 </div>
                 <div class="col-md-12">
-                    <textarea class="w-100" rows="3" placeholder="For example: Add extra ketchup in Burger 2" required></textarea>
+                    <textarea class="w-100" rows="3" placeholder="For example: Add extra ketchup in Burger 2"></textarea>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12  col-md-6">
-                    <button class="btn btn-block btn-secondary">Continue Shopping</button>
+                <div class="col-sm-12 col-md-6 p-1">
+                    <a class="btn btn-block btn-secondary" href="menu.html">Continue Shopping</a>
                 </div>
-                <div class="col-sm-12 col-md-6 text-right">
-                    <button class="btn btn-block btn-warning text-uppercase">Checkout</button>
+                <div class="col-sm-12 col-md-6 p-1 text-right">
+                    <a class="btn btn-block btn-warning text-uppercase" href="checkout.html">Checkout</a>
                 </div>
             </div>
+            <br>
         </div>
     </div>
+
+
+    <div class="row bg-warning" style="height: 0.5rem"></div>
     <!-- Footer -->
     <div class="col-12">
         <div class="row">
-            <div class="col-12 p-3 bg-dark text-light text-center">
+            <div class="col-12 p-3 bg-dark text-warning text-center">
                 <small>Copyright FINKI 2019</small>
             </div>
         </div>
