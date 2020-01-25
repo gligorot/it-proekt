@@ -60,10 +60,49 @@
     </div>
 </nav>
 
+<!-- Custom Burger floating button -->
+<a href="custom-burger.html">
+    <div style="position: fixed; bottom: 100px; right: 50px;" data-toggle="popover" data-placement="top" data-container="Create a custom burger!">
+        <img src="images/burger3.jpg" height="100px" width="100px" style="opacity: 0.5">
+        <div class="text-light text-" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <i class="fa fa-wrench fa-3x"></i>
+        </div>
+    </div>
+</a>
+
 <!-- Content -->
 <div class="container p-0 bg-dark text-warning">
     <div class="col-12">
-        <div class="row px-5 pt-4 pb-4"><h2 class="font-weight-bold">See what we have on offer:</h2></div>
+        <div class="row px-5 pt-4 pb-2"><h2 class="font-weight-bold">See what we have on offer:</h2></div>
+
+        <!-- Mini Filters Menu -->
+        <div class="row px-5 pt-2 pb-2">
+            <div class="col-12">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text bg-warning text-dark">Filters</label>
+                    </div>
+                    <select class="custom-select bg-dark text-warning" id="breadType">
+                        <option selected>Bread Type</option>
+                        <option value="ClassicWhite">Classic White</option>
+                        <option value="Integral">Integral</option>
+                    </select>
+                    <select class="custom-select bg-dark text-warning" id="meatType">
+                        <option selected>Meat Type</option>
+                        <option value="Chicken">Chicken</option>
+                        <option value="Pork">Pork</option>
+                        <option value="Beef">Beef</option>
+                        <option value="Lamb">Lamb</option>
+                    </select>
+                    <select class="custom-select bg-dark text-warning" id="sauceType">
+                        <option selected>Sauce Type</option>
+                        <option value="sauce1">Sauce 1</option>
+                        <option value="sauce2">Sauce 2</option>
+                        <option value="sauce3">Sauce 3</option>
+                    </select>
+                </div>
+            </div>
+        </div>
 
         <!-- Menu Items -->
         <div class="row px-5">
