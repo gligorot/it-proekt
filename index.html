@@ -59,6 +59,7 @@
             height: 20%;
         }
     </style>
+
 </head>
 
 <body>
@@ -105,9 +106,9 @@
 
 <!-- Custom Burger floating button -->
 <a href="custom-burger.html">
-    <div style="position: fixed; bottom: 100px; right: 50px;" data-toggle="popover" data-placement="top" data-container="Create a custom burger!">
-        <img src="images/burger2.jpg" height="100px" width="100px" style="opacity: 0.5">
-        <div class="text-light text-" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+    <div id='custom-burger-popover' style="position: fixed; bottom: 100px; right: 40px; z-index: 100;" data-toggle="popover" data-placement="top" data-container="Create a custom burger!">
+        <img src="images/burger2.jpg" class="img-thumbnail bg-warning" height="100px" width="100px" style="opacity: 0.5">
+        <div class="text-warning" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
             <i class="fa fa-wrench fa-3x"></i>
         </div>
     </div>
